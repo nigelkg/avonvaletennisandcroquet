@@ -1,12 +1,33 @@
 <!doctype html>
 <html>
 <head>
-	<title>Home::2023Pyramid</title>
+	<title>Home::Avonvale</title>
   <link rel="stylesheet" type="text/css" href="static/styles/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">></script>
+  <style>
+        table {
+            margin: 0 auto;
+        }
+        tr,
+        th,
+        td {
+            border: 0px solid black;
+            padding: 2px 5px;
+        }
+        th {
+            background-color: rgb(220, 220, 220);
+        }
+        .GFG {
+            background: rgb(240, 240, 240);
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("table tbody tr:nth-child(2n)").addClass("GFG");
+        });
+    </script>
 
-
-</head>
-<body>
+<h1>Avon Vale Tennis and Croquet Club</h1>
 <div class="container">
   <ul class="menu">
     <li class="mynavbar-brand"><a href="index.html">Home</a></li>
@@ -21,11 +42,13 @@
     <li><a href="documents/index.html">Documents</a></li>
    </ul>
 </div>
-  
-<div>
+
+</head>
+<body>
 
 
-<img src="static/pictures/2016/08/img_1331-e1481120013680.jpg"/>
+
+<img src="static/pictures/2016/08/img_1331-e1481120013680.jpg" width=1000 height=900/>
 <h1>WELCOME TO AVON VALE TENNIS AND CROQUET CLUB</h1>
 
 
@@ -72,19 +95,19 @@ donation to club funds, please contact Deirdre Pope at deirdre.pope@some.oxon.or
 <div id="pDebug">
     <div  id="pDebugToolbarHandle">
         <a title="Show Toolbar" id="pShowToolBarButton"
-           href="_debug_toolbar/34343031313933323936.html" target="pDebugToolbar">&#171;</a>
+           href="_debug_toolbar/34343232393738393736.html" target="pDebugToolbar">&#171;</a>
     </div>
 </div>
 </body>
-			<div class="wpb_wrapper break_links">
-									<p>
-						<strong>ADDRESS</strong><br />
-						<p>Avon Vale Tennis Club, Black Hall Lane, Avonwick, Devon, UK, TQ10 9EJ</p>
-					</p>
-				
-									<p><strong>CONTACTS</strong></p>
+<div id="footer">
+  <p>
+  <strong>ADDRESS</strong><br />
+  <p>Avon Vale Tennis Club, Black Hall Lane, Avonwick, Devon, UK, TQ10 9EJ</p>
+  </p>
 
-											<p>Email: <a href="mailto:deirdre.pope@some.oxon.org">deirdre.pope@some.oxon.org</a></p>
-																<p>Phone: 01752 698345</p>
-																							</div>
+  <p><strong>CONTACTS</strong></p>
+
+  <p>Email: <a href="mailto:deirdre.pope@some.oxon.org">deirdre.pope@some.oxon.org</a></p>
+  <p>Phone: 01752 698345</p>
+</div>
 </html>

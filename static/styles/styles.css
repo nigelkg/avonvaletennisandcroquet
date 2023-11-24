@@ -9,17 +9,10 @@ body {
 	width: 98%;
 	margin: 0 auto;
 	padding: 0;
-	font-size: 12px;
+	font-size: 14px;
 	font-family:"Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
 }
-body1 {
-	text-align: left;
-	width: "100%";
-	margin: 0 auto;
-	padding: 0;
-	font-size: 12px;
-	font-family:"Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
-}
+
 a {
 	color: #286571;
 }
